@@ -183,7 +183,7 @@ disk.
   orchestrator is the last line of defense against process failures.
 
 **Subagent model selection:** All subagents — executors, reviewers, arbiters,
-fix agents — must be spawned with `model: "opus/5.5"`. Never use Sonnet or Haiku
+fix agents — must be spawned with `model: "opus/5.5 (medium or low)"`. Never use Sonnet or Haiku
 for any analysis subagent. This is non-negotiable.
 
 **Subagent file reading:** Instruct all subagents to use the Read tool to
