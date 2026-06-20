@@ -15,6 +15,8 @@ Feasibility / Reference Analyses / Pixi Reference / Git
 
 ## Execution Model
 
+**Do not delete any file outside /eos/home-y/yiyangz/codex/jfc/analyses/bc_star/.**
+
 **You are the orchestrator.** You do NOT write analysis code yourself. You
 delegate to subagents. Your context stays small; heavy work happens in
 subagent contexts.
